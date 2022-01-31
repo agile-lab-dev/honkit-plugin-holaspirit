@@ -1,0 +1,43 @@
+{
+  "name": "honkit-plugin-holaspirit",
+  "version": "1.0.0",
+  "description": "A plugin to validate and convert role mentions inside pages into Holaspirit links",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agile-lab-dev/honkit-plugin-holaspirit.git"
+  },
+  "author": "Manuel Scurti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agile-lab-dev/honkit-plugin-holaspirit/issues"
+  },
+  "homepage": "https://github.com/agile-lab-dev/honkit-plugin-holaspirit#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "honkit": ">1.x.x"
+  },
+  "honkit": {
+    "properties": {
+      "organizationId": {
+        "type": "string",
+        "default": "",
+        "description": "It is the organizationId of your organization given by Holaspirit platform"
+      },
+      "token": {
+        "type": "string",
+        "default": "",
+        "description": "It is your Holaspirit's read-only access token"
+      }
+    }
+  },
+  "dependencies": {
+    "axios": "^0.25.0",
+    "dotenv": "^14.2.0"
+  },
+  "devDependencies": {
+    "honkit-tester": "^1.9.6"
+  }
+}
