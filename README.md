@@ -13,10 +13,17 @@ Where circle name is the parent circle for the role. As defined in your circles.
 ## Installation
 
 ```bash
-npm i honkit-plugin-holaspirit
+npm i --save-dev honkit-plugin-holaspirit
 ```
 
 Then add 'holaspirit' keyword inside the list of plugins in book.json
+```json
+{
+	"plugins": [
+		"holaspirit",
+		//...other plugins
+	],
+```
 
 ## Configuration
 
