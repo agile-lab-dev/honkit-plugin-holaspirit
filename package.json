@@ -1,6 +1,6 @@
 {
   "name": "honkit-plugin-holaspirit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A plugin to validate and convert role mentions inside pages into Holaspirit links",
   "repository": {
     "type": "git",
